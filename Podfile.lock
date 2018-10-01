@@ -1,0 +1,133 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Cluster (2.2.9)
+  - Disk (0.4.0)
+  - Eureka (4.1.1)
+  - Firebase/Auth (5.8.1):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.4)
+  - Firebase/CoreOnly (5.8.1):
+    - FirebaseCore (= 5.1.3)
+  - Firebase/Database (5.8.1):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.3)
+  - Firebase/Messaging (5.8.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.1.2)
+  - Firebase/Storage (5.8.1):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.2)
+  - FirebaseAuth (5.0.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.3):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.3):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.2.1):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+  - FirebaseMessaging (3.1.2):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (3.0.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GeoFire (3.0.0):
+    - Firebase/Database (~> 5.0)
+  - GoogleUtilities/Environment (5.3.0)
+  - GoogleUtilities/Logger (5.3.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Reachability (5.3.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.0)
+  - leveldb-library (1.20)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - Parchment (1.4.1)
+  - Protobuf (3.6.1)
+  - ReachabilitySwift (4.2.1)
+  - ViewRow (0.3.0):
+    - Eureka (>= 4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cluster
+  - Disk
+  - Eureka (~> 4.1.0)
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - GeoFire
+  - NVActivityIndicatorView
+  - Parchment
+  - ReachabilitySwift
+  - ViewRow (from `https://github.com/EurekaCommunity/ViewRow`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Cluster
+    - Disk
+    - Eureka
+    - Firebase
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - GeoFire
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - NVActivityIndicatorView
+    - Parchment
+    - Protobuf
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  ViewRow:
+    :git: https://github.com/EurekaCommunity/ViewRow
+
+CHECKOUT OPTIONS:
+  ViewRow:
+    :commit: 4228f70075419e9c749f7378eab6369d5878ee9f
+    :git: https://github.com/EurekaCommunity/ViewRow
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Cluster: 20155f2635cc603ac9164680c3a7d1fdf83ff187
+  Disk: ef2956657d5bb56034b38b29b352170165226440
+  Eureka: b88fb930e42c79f8c03c373d0fcdc28c1d6c50ed
+  Firebase: a870ed114d769b424021a0c8ddb0c86c3250a0c5
+  FirebaseAuth: 504b198ceb3472dca5c65bb95544ea44cfc9439e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 27bd80e5bfaaf9552a1f5cacb4c7e8bb925bab22
+  FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
+  FirebaseInstanceID: ea5af6920d0a4a29b40459d055bebe4a6c1333c4
+  FirebaseMessaging: d6feeb06218d2675b4149b0ada925a6b707a74cf
+  FirebaseStorage: fd82e5e5c474897e19972b34b22ac0f589dce04e
+  GeoFire: e3ae6f4be3f2466c3467ef6c1c203db3af935c59
+  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  Parchment: e6c2a3a0063739382dd207e21d48fe5e81f3324a
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  ReachabilitySwift: 35720ffea59c1c76d15f885be77fd33e33985427
+  ViewRow: e278428ff53da5eab18b191d3e19a16f3e299fc1
+
+PODFILE CHECKSUM: 37b1bb9dad713aec3720dfc81adde148c001f719
+
+COCOAPODS: 1.6.0.beta.1
